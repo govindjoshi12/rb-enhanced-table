@@ -1,0 +1,24 @@
+{
+  "name": "rb-enhanced-table",
+  "version": "1.0.0",
+  "description": "An enhanced table built with react bootstrap components with sorting, filtering, and searching abilities ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/govindjoshi12/rb-enhanced-table.git"
+  },
+  "author": "govindjoshi12",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/govindjoshi12/rb-enhanced-table/issues"
+  },
+  "homepage": "https://github.com/govindjoshi12/rb-enhanced-table#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^5.0.11"
+  }
+}

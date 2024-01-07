@@ -1,0 +1,57 @@
+/* table-container */
+.table-container {
+    position: relative;
+    border-style: solid;
+    border-color: lightgray;
+    border-width: 0.5px;
+    border-radius: 5px;
+    
+    height: 25rem;
+    overflow-y: scroll;
+    /* background-color: lightgray; */
+}
+
+/* Table Itself */
+/* https://stackoverflow.com/questions/50361698/border-style-do-not-work-with-sticky-position-element */
+#custom-table {
+    margin-bottom: 0;
+    border-collapse: separate; /* Don't collapse */
+    border-spacing: 0;
+}
+
+#custom-table thead {
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.75);
+    /* This is removing the borders between th elements */
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+
+#custom-table tbody {
+    z-index: 0;
+}
+
+#custom-table th, 
+#custom-table td {
+    white-space: nowrap;
+    border-bottom-style: solid;
+    border-right-style: solid;
+
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+}
+
+.sticky-id-col {
+    border-right-color: darkgray !important;
+    position: sticky;
+    left: 0;
+    opacity: 1;
+    background-color: white !important;
+}
+
+.highlighted-element {
+    background-color: lightgrey !important;
+}

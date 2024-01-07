@@ -1,0 +1,15 @@
+.table-button {
+    width: 100%;
+    height: 100%;
+}
+
+/* Does not fix the dropdown overflow problem */
+.table-modal-body-liner {
+    /* max-height: 20rem; */
+}
+
+/* Removing max height for now */
+.table-modal-body {
+    /* max-height: 20rem; */
+    overflow-y: inherit;
+}

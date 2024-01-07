@@ -1,0 +1,16 @@
+.custom-table-container {
+
+}
+
+.pagination {
+    /* -webkit-box-shadow: 0px -2px 3px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -2px 3px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px -2px 3px 0px rgba(0,0,0,0.75); */
+   
+    /* position: sticky;
+    bottom: 0;
+    z-index: 1;
+    background-color: white; */
+   
+    font-size: small;
+}
